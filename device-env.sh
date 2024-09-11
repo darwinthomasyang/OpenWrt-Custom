@@ -5,7 +5,7 @@ case $1 in
     1)
         DEVICE_TAG="Lean's LEDE - HC5661"
         REPO_USE=coolsnowwolf/lede
-        REPO_BRANCH=master
+        REPO_BRANCH=v23.05.4
 #         COMMIT_SHA=latest
         DIY_P2_SH="diy-part2/[Lean's LEDE]HC5661-part2.sh"
         DEPENDS=$(curl -fsSL "https://gist.githubusercontent.com/1-1-2/38e424cd9da729f72fa4a495d23271ea/raw/lean's%2520lede")
@@ -14,7 +14,7 @@ case $1 in
     2)
         DEVICE_TAG="Lean's LEDE - Newifi3_D2"
         REPO_USE=coolsnowwolf/lede
-        REPO_BRANCH=master
+        REPO_BRANCH=v23.05.4
 #         COMMIT_SHA=latest
         DIY_P2_SH="diy-part2/[Lean's LEDE]Newifi3D2-part2.sh"
         DEPENDS=$(curl -fsSL "https://gist.githubusercontent.com/1-1-2/38e424cd9da729f72fa4a495d23271ea/raw/lean's%2520lede")
@@ -23,7 +23,7 @@ case $1 in
     3)
         DEVICE_TAG="Lean's LEDE - RE-SP-01B"
         REPO_USE=coolsnowwolf/lede
-        REPO_BRANCH=master
+        REPO_BRANCH=v23.05.4
 #         COMMIT_SHA=latest
         DIY_P2_SH="diy-part2/[Lean's LEDE]RE-SP-01B-part2.sh"
         DEPENDS=$(curl -fsSL "https://gist.githubusercontent.com/1-1-2/38e424cd9da729f72fa4a495d23271ea/raw/lean's%2520lede")
@@ -32,7 +32,7 @@ case $1 in
     4)
         DEVICE_TAG="OpenWrt - Newifi3_D2"
         REPO_USE=openwrt/openwrt
-        REPO_BRANCH=master
+        REPO_BRANCH=v23.05.4
 #         COMMIT_SHA=latest
         DIY_P2_SH="diy-part2/[OpenWrt]Newifi3D2-part2.sh"
         DEPENDS=$(curl -fsSL "https://gist.githubusercontent.com/1-1-2/38e424cd9da729f72fa4a495d23271ea/raw/openwrt")
@@ -41,7 +41,7 @@ case $1 in
     5)
         DEVICE_TAG="OpenWrt - RE-SP-01B"
         REPO_USE=openwrt/openwrt
-        REPO_BRANCH=master
+        REPO_BRANCH=v23.05.4
 #         COMMIT_SHA=latest
         DIY_P2_SH="diy-part2/[OpenWrt]RE-SP-01B-part2.sh"
         DEPENDS=$(curl -fsSL "https://gist.githubusercontent.com/1-1-2/38e424cd9da729f72fa4a495d23271ea/raw/openwrt")
@@ -50,7 +50,7 @@ case $1 in
     6)
         DEVICE_TAG="OpenWrt - RE-CP-02"
         REPO_USE=openwrt/openwrt
-        REPO_BRANCH=master
+        REPO_BRANCH=v23.05.4
 #         COMMIT_SHA=latest
         DIY_P2_SH="diy-part2/[OpenWrt]RE-CP-02-part2.sh"
         DEPENDS=$(curl -fsSL "https://gist.githubusercontent.com/1-1-2/38e424cd9da729f72fa4a495d23271ea/raw/openwrt")
